@@ -7,5 +7,6 @@
 1. 首推[官网](https://www.typescriptlang.org/)，把官网的文章看一遍基本就算是入门了，但目前官网的中文文档不是很全，所以这里主要看[ts中文版](https://ts.yayujs.com/)
 
 [TypeScript 使用指南手册]http://www.patrickzhong.com/TypeScript/
+关于类的部分没有细读，因为此部分内容比较多，且目前暂时也不用到
 
 ### 
