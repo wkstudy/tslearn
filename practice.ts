@@ -36,5 +36,13 @@ type T0 = Exclude<"a" | "b" | "c", "a"| "b">;
 
 // ? 
 type IExclude2<Type, Keys extends keyof Type>= {
-  [k in  keyof Type] : k
+  [k in keyof Type] : k extends Keys ? never : Type[k]
 }
+
+
+// Extract<Type, Union>
+type IExtract<Type, Union> = {
+  [k in keyof Union]: k extends keyof Type ? Type[k] : never
+}
+
+let x = [0, 1, null];

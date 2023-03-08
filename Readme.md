@@ -9,6 +9,9 @@
 这里也发现一个ts的中文翻译-[TypeScript 使用指南手册](http://www.patrickzhong.com/TypeScript/),但这个目前自己还没看过
 
 
+2. 开始做题吧[ts-challanges](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
+3. 顺便也看些其他文章[深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese)
+
 
 
 ### Refer
