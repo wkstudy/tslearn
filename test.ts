@@ -1,3 +1,4 @@
+
 interface Animal {
   name: string;
 }
@@ -13,3 +14,13 @@ interface NotOkay {
   [x: string]: Animal;
 }
 let arr: ReadonlyArray<string> = [''];
+
+
+
+interface T {
+  name: string;
+  age: number
+}
+type C = Exclude<{name: string;age: number}, {name: string}>
+
+type D = Exclude<'name' | 'age', 'name'>
