@@ -12,6 +12,10 @@
 
 三篇文章由一定程度的重复，所以主要选一个看、其他的略读或者不读就行（需要的时候用来查阅）
 2. 开始做题吧[ts-challanges](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
+```
+interface好像没法在key里使用泛型
+
+```
 
 3. 阅读理解ts里内置实现的高级类型（如果2里做题做的很顺利就没必要看这个了，有问题的话可以先看这个再做2）
 > 1. `Exclude Extract`  a extends b ? a b 为联合类型的话是单独某一项与某一项之间的比较，而不是整体的比较
@@ -19,6 +23,7 @@
 ```
 type a = string extends Object ? true : false // true
 ```
+4. [这里](https://github.com/ascoders/weekly/blob/master/TS%20%E7%B1%BB%E5%9E%8B%E4%BD%93%E6%93%8D/243.%E7%B2%BE%E8%AF%BB%E3%80%8APick%2C%20Awaited%2C%20If...%E3%80%8B.md)有大佬做题的记录，可以参考思路
 
 
 
