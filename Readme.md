@@ -14,7 +14,11 @@
 2. 开始做题吧[ts-challanges](https://github.com/type-challenges/type-challenges/blob/main/README.zh-CN.md)
 
 3. 阅读理解ts里内置实现的高级类型（如果2里做题做的很顺利就没必要看这个了，有问题的话可以先看这个再做2）
-
+> 1. `Exclude Extract`  a extends b ? a b 为联合类型的话是单独某一项与某一项之间的比较，而不是整体的比较
+> 2. `NonNullable` [object Object {} 的区别](https://juejin.cn/post/6844904170521100296#heading-0) ,我的理解是 object只能表示非原始类型,Object是Object.prototype,js里所有类型都(除了 null undefined)是继承与它, {}和Object是一样的，但比较特殊的是{}里不能有属性，只能是空Object
+```
+type a = string extends Object ? true : false // true
+```
 
 
 
